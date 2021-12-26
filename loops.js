@@ -10,15 +10,34 @@
  */
 function drawVLine(n) {
   // Continue the code here
-}
-/**
+  for(let i=0; i<n; i++){
+    console.log("#");
+    
+  }
+} 
+// drawVLine(5);
+/**S
  *
  * In this function, you will have to draw a horizontal line with `n` length
  * for example `drawHLine(5) should print out # # # # # (there are spaces here!)
  */
 function drawHLine(n) {
-  // Continue the code here
-}
+  // Continue the code here  
+    for(let i=0; i<n; i++){
+      process.stdout.write("#");
+      
+      
+      
+     }
+  }
+
+  
+  
+  
+ // drawHLine(5);
+  
+  
+
 
 /**
  * 
@@ -34,7 +53,18 @@ function drawHLine(n) {
  */
 function drawSquare(n) {
   // Continue the code here
-}
+  for(let i=0; i<n; i++){
+    
+   for(let j=0;j<n;j++){
+    process.stdout.write("# ");
+   }
+   
+   console.log();
+ }
+ }
+ //drawSquare(5);
+
+
 
 /**
  * 
@@ -50,8 +80,16 @@ function drawSquare(n) {
  */
 function drawLeftTriangle(n) {
   // Continue the code here
+  for(let i=0; i<n; i++){
+    
+    for(let j=0;j<=i;j++){
+     process.stdout.write("# ");
+    }
+    
+    console.log();
+  }
 }
-
+drawLeftTriangle(5);
 /**
  * 
  * In this function, you will have to draw a tree with a length of `n` 
